@@ -51,14 +51,14 @@ CREATE TABLE `ezrpt_member_module` (
 -- ----------------------------
 INSERT INTO `ezrpt_member_module` VALUES ('3', '40', '数据源', 'report.ds', 'icon-datasource', 'views/report/ds', '40,3', '0', '0', '', '', '2', '1', '数据源', '2014-10-30 06:41:24', '2015-12-17 18:13:28');
 INSERT INTO `ezrpt_member_module` VALUES ('4', '40', '报表设计', 'report.designer', 'icon-chart', 'views/report/designer', '40,4', '0', '0', '', '', '1', '1', '报表设计', '2014-10-30 06:41:42', '2015-12-17 18:13:28');
-INSERT INTO `ezrpt_member_module` VALUES ('7', '0', '用户权限', 'membership', 'icon-user', 'views/report/user', '7', '1', '0', '', '', '3', '1', '用户权限', '2014-10-30 06:45:47', '2015-12-17 18:13:28');
+INSERT INTO `ezrpt_member_module` VALUES ('7', '0', '用户权限', 'membership', 'icon-user', 'views/member/user', '7', '1', '0', '', '', '3', '1', '用户权限', '2014-10-30 06:45:47', '2015-12-17 18:13:28');
 INSERT INTO `ezrpt_member_module` VALUES ('23', '7', '用户管理', 'membership.user', 'icon-member', 'views/member/user', '7,23', '0', '0', '', '', '1', '1', '用户管理', '2014-10-30 07:38:22', '2015-12-17 18:13:57');
 INSERT INTO `ezrpt_member_module` VALUES ('24', '7', '角色管理', 'membership.role', 'icon-group', 'views/member/role', '7,24', '0', '0', '', '', '2', '1', '角色管理', '2014-10-30 07:38:44', '2015-12-17 18:13:57');
 INSERT INTO `ezrpt_member_module` VALUES ('25', '7', '权限管理', 'membership.permission', 'icon-perm', 'views/member/permission', '7,25', '0', '0', '', '', '3', '1', '操作管理', '2014-10-30 07:39:03', '2015-12-17 18:13:57');
-INSERT INTO `ezrpt_member_module` VALUES ('26', '32', '系统日志', 'membership.event', 'icon-event', 'views/member/event', '32,26', '0', '0', '', '', '3', '1', '系统日志', '2014-10-30 07:41:06', '2015-12-17 18:13:57');
+INSERT INTO `ezrpt_member_module` VALUES ('26', '32', '系统日志', 'sys.event', 'icon-event', 'views/member/event', '32,26', '0', '0', '', '', '3', '1', '系统日志', '2014-10-30 07:41:06', '2015-12-17 18:13:57');
 INSERT INTO `ezrpt_member_module` VALUES ('31', '7', '模块管理', 'membership.module', 'icon-org', 'views/member/module', '7,31', '0', '0', '', '', '4', '1', '模块管理', '2014-10-31 02:21:46', '2015-12-17 18:13:57');
-INSERT INTO `ezrpt_member_module` VALUES ('32', '0', '系统管理', 'sys', 'icon-settings4', 'views/sys/conf', '32', '1', '0', '', '', '5', '1', '系统管理', '2014-11-12 04:20:57', '2015-12-17 18:13:28');
-INSERT INTO `ezrpt_member_module` VALUES ('39', '32', '系统配置', 'sys.conf', 'icon-settings2', 'views/sys/conf', '32,39', '0', '0', ' ', ' ', '2', '0', '系统配置', '2015-08-08 02:48:03', '2015-12-17 18:13:57');
+INSERT INTO `ezrpt_member_module` VALUES ('32', '0', '系统管理', 'sys', 'icon-settings4', 'views/report/conf', '32', '1', '0', '', '', '5', '1', '系统管理', '2014-11-12 04:20:57', '2015-12-17 18:13:28');
+INSERT INTO `ezrpt_member_module` VALUES ('39', '32', '系统配置', 'sys.conf', 'icon-settings2', 'views/report/conf', '32,39', '0', '0', ' ', ' ', '2', '1', '系统配置', '2015-08-08 02:48:03', '2015-12-17 18:13:57');
 INSERT INTO `ezrpt_member_module` VALUES ('40', '0', '报表管理', 'report', 'icon-designer1', 'views/report/designer', '40', '1', '0', '', '', '1', '1', '报表管理', '2015-12-14 03:45:36', '2015-12-17 18:13:28');
 INSERT INTO `ezrpt_member_module` VALUES ('41', '40', '参数配置', 'report.conf', 'icon-settings', 'views/report/conf', '40,41', '0', '0', '', '', '3', '1', '参数配置', '2015-12-14 03:45:36', '2015-12-17 18:13:28');
 INSERT INTO `ezrpt_member_module` VALUES ('42', '0', '计划任务', 'schedule', 'icon-scheduled1', 'views/schedule/task', '42', '1', '0', '', '', '2', '1', '计划任务', '2015-12-14 03:45:36', '2015-12-17 18:13:28');
